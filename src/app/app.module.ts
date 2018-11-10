@@ -47,7 +47,7 @@ import { ProductFormComponent } from './admin/product-form/product-form.componen
     AngularFireAuthModule,
     NgbModule,
     RouterModule.forRoot([
-    {path:'',component: HomeComponent},
+    {path:'',component: ProductsComponent },
     {path:'products',component: ProductsComponent},
     {path:'shopping-cart',component: ShoppingCartComponent},
     {path:'check-out',component: CheckOutComponent},
